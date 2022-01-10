@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bongo Cat</title>
+    <link rel="icon" href="images/icon.PNG">
+
+    <style>
+      body{
+        background-image: url(images/cat.png);
+        background-size: cover;
+      }
+      .ocultarImagen {
+        display:none;
+      }
+      .mostrarImagen {
+        display:block;
+      }
+
+    </style>
+
+
+</head>
+<body>
+    <audio id="bongo0" src="sounds/bongo0.mp3" ></audio>
+    <audio id="bongo1" src="sounds/bongo1.mp3"></audio>
+    <audio id="cowbell" src="sounds/cowbell.mp3"></audio>
+    <audio id="cymbal" src="sounds/cymbal.mp3"></audio>
+    <audio id="keyboard0" src="sounds/keyboard0.mp3"></audio>
+    <audio id="keyboard1" src="sounds/keyboard1.mp3"></audio>
+    <audio id="keyboard2" src="sounds/keyboard2.mp3"></audio>
+    <audio id="keyboard3" src="sounds/keyboard3.mp3"></audio>
+    <audio id="keyboard4" src="sounds/keyboard4.mp3"></audio>
+    <audio id="keyboard5" src="sounds/keyboard5.mp3"></audio>
+    <audio id="keyboard6" src="sounds/keyboard6.mp3"></audio>
+    <audio id="keyboard7" src="sounds/keyboard7.mp3"></audio>
+    <audio id="keyboard8" src="sounds/keyboard8.mp3"></audio>
+    <audio id="keyboard9" src="sounds/keyboard9.mp3"></audio>
+    <audio id="marimba0" src="sounds/marimba0.mp3"></audio>
+    <audio id="marimba1" src="sounds/marimba1.mp3"></audio>
+    <audio id="marimba2" src="sounds/marimba2.mp3"></audio>
+    <audio id="marimba3" src="sounds/marimba3.mp3"></audio>
+    <audio id="marimba4" src="sounds/marimba4.mp3"></audio>
+    <audio id="marimba5" src="sounds/marimba5.mp3"></audio>
+    <audio id="marimba6" src="sounds/marimba6.mp3"></audio>
+    <audio id="marimba7" src="sounds/marimba7.mp3"></audio>
+    <audio id="marimba8" src="sounds/marimba8.mp3"></audio>
+    <audio id="marimba9" src="sounds/marimba9.mp3"></audio>
+    <audio id="meow" src="sounds/meow.mp3"></audio>
+    <audio id="tambourine" src="sounds/tambourine.mp3"></audio>
+
+
+    
+
+
+  <table  style="width: 100%;">
+    <tr >
+      <td style="width: 25%;"><img src="espacio.png" /></td>
+      <td style="width: 30%;" align="right">
+        <img src="images/right.PNG" id="pawRightUp" class="mostrarImagen">
+        <img src="images/right_down.PNG" id="pawRightDown" class="ocultarImagen">
+      
+      </td>
+      <td style="width: 15%; vertical-align: bottom;" align="center">
+        <img src="images/mouth.png" id="mouth" class="mostrarImagen"/>
+        <img src="images/mouth2.png" id="mouth2" class="ocultarImagen"/>
+      </td>
+      <td style="width: 10%;"></td>
+      <td style="width: 20%;"></td>
+    </tr>
+    <tr >
+      <td style="width: 25%;"></td>
+      <td style="width: 30%;"></td>
+      <td style="width: 15%;" align="right"></td>
+      <td style="width: 10%;">
+        <img src="images/left.PNG" id="pawLeftUp" class="mostrarImagen">
+        <img src="images/left_down.PNG" id="pawLeftDown" class="ocultarImagen">
+      </td>
+      <td style="width: 20%;"></td>
+
+  
+    </tr>
+    <tr >
+      <td style="width: 25%;"></td>
+      <td colspan="3" style="width: 55%;" align="center">
+        <img src="images/bongo.png" id="imgBongo" class="ocultarImagen"/>
+        <img src="images/cowbell.png" id="imgCowbell" class="ocultarImagen"/>
+        <img src="images/cymbal.png" id="imgCymbal" class="ocultarImagen"/>
+        <img src="images/keyboard.png" id="imgKeyboard" class="ocultarImagen"/>
+        <img src="images/marimba.png" id="imgMarimba" class="ocultarImagen"/>
+        <img src="images/tambourine.png" id="imgTambourine" class="ocultarImagen"/>
+      </td>
+      <td style="width: 10%;"></td>
+      <td style="width: 20%;"></td>
+    </tr>
+
+  </table>
+ 
+
+
+
+    <script src="ejecutaSonidos.js"></script>
+</body>
+</html>
